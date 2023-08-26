@@ -1,0 +1,11 @@
+type: OK-iCE40Pro
+buildType: apio
+buildTools:
+  - apio
+programTools:
+  - apio
+buildDir: build
+build: apio build -b OK-iCE40Pro -p source
+program: apio upload -b OK-iCE40Pro -p source
+path: ""
+projectName: " "
